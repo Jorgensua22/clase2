@@ -16,6 +16,9 @@ body{
 .desco{
     text-align: center;
 }
+.categorias{
+    text-align: center;
+}
 .actuales{
     background-color: beige;
     background-image: url(img/sttl.jpg);
