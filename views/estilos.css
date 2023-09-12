@@ -1,10 +1,44 @@
+.encabezado{
+    background-image: url(img/fondo-cabecera.png);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: beige
+}
+.titulazo{
+    text-decoration: black;
+    text-align: center;
+}
 body{
     background-color: beige;
 }
-h1{
-   color: rgb(45, 25, 63);
-   font-family: 'Oswald', sans-serif;
+.desco{
+    text-align: center;
 }
-div{
-color: chocolate;
+.actuales{
+    background-color: beige;
+    background-image: url(img/sttl.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    text-decoration: aqua;
+}
+.ventas{
+    background-image: url(img/wsa2-overlay.jpg);
+    background-color: beige;;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 130vh;
+    text-decoration: aqua;
+}
+.retros{
+    background-image: url(img/Snapinsta.app_377439930_630851012364888_2880292803410665877_n_1024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    text-decoration: aqua;
 }
