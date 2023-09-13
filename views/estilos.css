@@ -35,17 +35,17 @@ body{
 }
 .ventas{
     display: grid;
-    background-image: url(img/wsa2-overlay.jpg);
+    background-image: url(img/wasa1.jpg);
     background-color: beige;;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     text-decoration: aqua;
 }
 .retros{
-    display: grid;
     background-image: url(img/Snapinsta.app_377439930_630851012364888_2880292803410665877_n_1024.jpg);
+    display: grid;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,4 +55,59 @@ body{
 .contacto{
     text-align: center;
     position: relative;
+}
+.nuevas{
+    display: grid;
+    width: 200;
+    height: 200;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.nuevas2{
+    display: grid;
+    width: 200;
+    height: 200;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.nuevas3{
+    display: grid;
+    width: 200;
+    height: 200;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.nuevas4{
+    display: grid;
+    width: 200;
+    height: 200;
+    margin-bottom: 30px;
+    object-fit: contain;
+}
+.contenedor1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.encabezadoretro{
+    background-image: url(img/Snapinsta.app_377601375_1036332414445201_2632011226516103703_n_1024.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    text-decoration: aqua;
+    flex-wrap: wrap;
 }
