@@ -52,9 +52,10 @@ body{
     height: 65vh;
     text-decoration: aqua;
 }
-.contacto{
-    text-align: center;
-    position: relative;
+.redes{
+    position: fixed;
+    top: 100px;
+
 }
 .nuevas{
     display: grid;
@@ -103,11 +104,18 @@ body{
     box-sizing: border-box;
 }
 .encabezadoretro{
-    background-image: url(img/Snapinsta.app_377601375_1036332414445201_2632011226516103703_n_1024.jpg);
+    background-image: url(img/Snapinsta.app_377439930_630851012364888_2880292803410665877_n_1024.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     text-decoration: aqua;
     flex-wrap: wrap;
 }
+/* mobile first */
+
+/* celulares */
+
+/* tablets */
+
+/* escritorio */
