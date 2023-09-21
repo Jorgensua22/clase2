@@ -1,68 +1,29 @@
-.encabezado{
-    display: grid;
-    background-image: url(img/fondo-cabecera.png);
-    height: 60vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-color: beige
+
+
+/* mobile first */
+.productos img {
+    width: 100%;
+    height: auto;
 }
-.titulazo{
-    display: grid;
-    text-decoration: black;
-    text-align: center;
-}
-body{
-    display: grid;
-    background-color: beige;
-}
-.desco{
-    text-decoration: black;
-    text-align: center;
-}
-.categorias{
-    text-align: center;
-}
-.actuales{
-    display: grid;
-    background-color: beige;
-    background-image: url(img/sttl.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    text-decoration: aqua;
-}
-.ventas{
-    display: grid;
-    background-image: url(img/wasa1.jpg);
-    background-color: beige;;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    text-decoration: aqua;
-}
-.retros{
-    background-image: url(img/Snapinsta.app_377439930_630851012364888_2880292803410665877_n_1024.jpg);
-    display: grid;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 65vh;
-    text-decoration: aqua;
-}
+
 .redes{
     position: fixed;
     top: 100px;
 
+}
+.contenedor1{
+    text-align: center;
+}
+.contenedor1 img{
+    width: 100%  ;
+    height: auto;
 }
 .nuevas{
     display: grid;
     width: 200;
     height: 200;
     margin-bottom: 30px;
-    object-fit: contain;
+    object-fit: contain
 }
 .nuevas2{
     display: grid;
@@ -85,24 +46,7 @@ body{
     margin-bottom: 30px;
     object-fit: contain;
 }
-.contenedor1{
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin: auto;
-}
-img{
-    width: 100%;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-*{
-    box-sizing: border-box;
-}
+
 .encabezadoretro{
     background-image: url(img/Snapinsta.app_377439930_630851012364888_2880292803410665877_n_1024.jpg);
     background-position: center;
@@ -112,10 +56,92 @@ body{
     text-decoration: aqua;
     flex-wrap: wrap;
 }
-/* mobile first */
+@media screen and (min-width: 480px) {
+    body{
+        background-color: yellow;
+    }
+}
 
 /* celulares */
-
+@media (max-width:767px){
+    .sugerencias_app{
+        display: none;
+    }
+     }
 /* tablets */
-
+@media screen and (min-width: 767px) {
+    body{
+        background-color: red;
+    }
+ }
 /* escritorio */
+@media screen and (min-width: 950px) {
+
+    body{
+        background-color: aquamarine;
+    }
+    .titulazo{
+        display: grid;
+        text-decoration: black;
+        text-align: center;
+    }
+    .desco{
+        text-decoration: black;
+        text-align: center;
+    }
+    .categorias{
+        text-align: center;
+    }
+    
+    
+    .redes{
+        position: fixed;
+        top: 100px;
+    
+    }
+    .nuevas{
+        display: grid;
+        width: 200;
+        height: 200;
+        margin-bottom: 30px;
+        object-fit: contain;
+    }
+    .nuevas2{
+        display: grid;
+        width: 200;
+        height: 200;
+        margin-bottom: 30px;
+        object-fit: contain;
+    }
+    .nuevas3{
+        display: grid;
+        width: 200;
+        height: 200;
+        margin-bottom: 30px;
+        object-fit: contain;
+    }
+    .nuevas4{
+        display: grid;
+        width: 200;
+        height: 200;
+        margin-bottom: 30px;
+        object-fit: contain;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .encabezadoretro{
+        background-image: url(img/Snapinsta.app_377439930_630851012364888_2880292803410665877_n_1024.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        text-decoration: aqua;
+        flex-wrap: wrap;
+    }
+    .contenedor1 img{
+        width: 80%  ;
+        height: auto;
+    }
+
+    }
