@@ -1,11 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 /* mobile first */
 .productos img {
     width: 100%;
     height: auto;
+    text-align: center;
 }
-
 .redes{
     position: fixed;
     top: 100px;
@@ -17,6 +21,7 @@
 .contenedor1 img{
     width: 100%  ;
     height: auto;
+    text-align: center;
 }
 .nuevas{
     display: grid;
@@ -72,6 +77,7 @@
         text-decoration: black;
         text-align: center;
         font-size: 20px;
+        padding: 3rem;
     }
     .desco{
         text-decoration: black;
@@ -121,11 +127,7 @@
     
     }
     .nuevas{
-        display: grid;
-        width: 200;
-        height: 200;
-        margin-bottom: 30px;
-        object-fit: contain;
+        text-align: center;
     }
     .nuevas2{
         display: grid;
@@ -163,6 +165,5 @@
     .contenedor1 img{
         width: 80%  ;
         height: auto;
-    }
-
-    }
+    }     
+ }
